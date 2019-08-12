@@ -1,5 +1,6 @@
-## UniformFace: Learning Deep Equidistributed Representation for Face Recognition [ref](http://openaccess.thecvf.com/content_CVPR_2019/papers/Duan_UniformFace_Learning_Deep_Equidistributed_Representation_for_Face_Recognition_CVPR_2019_paper.pdf)
+## UniformFace: Learning Deep Equidistributed Representation for Face Recognition
 
++ Tensorflow Implementation of UniformFace: Learning Deep Equidistributed Representation for Face Recognition [ref](http://openaccess.thecvf.com/content_CVPR_2019/papers/Duan_UniformFace_Learning_Deep_Equidistributed_Representation_for_Face_Recognition_CVPR_2019_paper.pdf)
 + I only uploaded the uniform loss
 + Now I'm testing...
 

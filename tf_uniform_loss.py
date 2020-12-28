@@ -24,7 +24,7 @@ def uniform_loss(features, labels, num_class):
 
     denom = tf.reduce_sum(adjacency, axis=1, keepdims=True)
     diff /= denom
-    centers = tf.scatter_add(centers, labels, diff)
+    centers = tf.scatter_sub(centers, labels, diff)
 
     with tf.control_dependencies([centers]): # update centers first
         a = tf.reduce_sum(tf.square(selected_centers), axis=1, keepdims=True)
